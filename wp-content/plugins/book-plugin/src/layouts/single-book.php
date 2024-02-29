@@ -1,7 +1,4 @@
 <?php
-/*
-Template Name: Single Book
-*/
 
 get_header();
 
