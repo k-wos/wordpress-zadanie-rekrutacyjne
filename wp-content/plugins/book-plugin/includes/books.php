@@ -5,6 +5,7 @@ function create_books_post_type() {
         'labels' => array(
             'name' => __('Books'),
             'singular_name' => __('Book'),
+            'add_new' => __('Dodaj nową książkę'),
         ),
         'public' => true,
         'has_archive' => true,

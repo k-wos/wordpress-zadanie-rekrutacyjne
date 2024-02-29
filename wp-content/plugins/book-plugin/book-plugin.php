@@ -12,5 +12,6 @@ include_once (plugin_dir_path( __FILE__ ) . 'includes/books.php');
 include_once (plugin_dir_path( __FILE__ ) . 'includes/add-acf-fields.php');
 include_once (plugin_dir_path(__FILE__) . 'src/templates/single-book.php');
 include_once (plugin_dir_path(__FILE__) . 'src/templates/books-archive.php');
+include_once (plugin_dir_path(__FILE__) . 'utils/custom-styles.php');
 ?>
 

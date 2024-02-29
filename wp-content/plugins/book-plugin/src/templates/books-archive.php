@@ -1,16 +1,15 @@
 <?php 
-add_filter( 'archive_template', 'books_archive_template' );
+add_filter( 'single_template', 'books_single_template' );
 
-function books_archive_template($archive) {
+function books_single_template($single) {
     global $post;
 
     if ($post->post_type == 'books') {
-        if (file_exists(plugin_dir_path( __FILE__ ) . '/src/templates/archive-books.php')) {
-            return plugin_dir_path( __FILE__ ) . '/src/templates/archive-books.php';
+        if (file_exists(plugin_dir_path( __FILE__ ) . '/src/layouts/single-book.php')) {
+            return plugin_dir_path( __FILE__ ) . '/src/layouts/single-book.php';
         }
     }
 
-    return $archive;
+    return $single;
 }
-
 ?>
