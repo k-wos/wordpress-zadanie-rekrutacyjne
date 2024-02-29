@@ -1,6 +1,14 @@
 {
+  "type": "module",
+  "scripts": {
+    "watch": "gulp watch"
+  },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "autoprefixer": "^10.4.17",
+    "cssnano": "^6.0.5",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sourcemaps": "^3.0.0"
   },
   "dependencies": {
     "tailwindcss": "^3.4.1"
